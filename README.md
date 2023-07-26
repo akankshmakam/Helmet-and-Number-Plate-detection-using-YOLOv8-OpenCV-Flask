@@ -14,7 +14,7 @@ To get started with the Helmet and License Plate Detector, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/helmet-license-plate-detector.git
+git clone https://github.com/yourusername/Helmet-and-Number-Plate-detection-using-YOLOv8-OpenCV-Flask.git
 ```
 
 ## Contributions
