@@ -38,7 +38,7 @@ def predict_img():
                 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
                 out = cv2.VideoWriter('output.mp4',fourcc,30.0,(frame_width, frame_height))
 
-                model = YOLO("C:/Users/akank/PycharmProjects/pythonProject1/Yolo-Weights/helnumbest.pt")
+                model = YOLO("helnumbest.pt")
 
                 while cap.isOpened():
                     ret, frame = cap.read()
